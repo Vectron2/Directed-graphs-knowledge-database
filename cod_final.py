@@ -50,7 +50,7 @@ def menu1():
             if (op1=="inapoi"):
                 break
             elif (op1=="imagine"):
-                img = Image.open("text.png")
+                img = Image.open("1a.PNG")
                 img.show()
             elif (op1=="text"):
                 textLOL='''    Un graf orientat, sau digraf, este o pereche ordonata de multimi, notata G=(V,E), unde:  V este o multime finita și nevida ale carei elemente se numesc noduri si E este o multime de perechi ordonate de elemente distincte din V, fiecare pereche reprezentand o legatură directionată intre doua noduri si aceasta numindu-se arc.'''
@@ -59,7 +59,7 @@ def menu1():
                     if (chst=='inapoi'):
                         break
                     if (chst=='imagine'):
-                        img = Image.open("text.png")
+                        img = Image.open("1a.PNG")
                         img.show()
     if (val_q1=="2.Definitia 2 graf orientat"):
         while (1):
@@ -67,7 +67,7 @@ def menu1():
             if (op1=="inapoi"):
                 break
             elif (op1=="imagine"):
-                img = Image.open("text2.png")
+                img = Image.open("1b.PNG")
                 img.show()
             elif (op1=="text"):
                 while (1):
@@ -78,7 +78,7 @@ def menu1():
                     if (chst=='inapoi'):
                         break
                     if (chst=='imagine'):
-                        img = Image.open("text.png")
+                        img = Image.open("1b.PNG")
                         img.show()
     if (val_q1=="3.Definitia 3 graf orientat"):
         while (1):
@@ -86,7 +86,7 @@ def menu1():
             if (op1=="inapoi"):
                 break
             elif (op1=="imagine"):
-                img = Image.open("text3.png")
+                img = Image.open("1c.PNG")
                 img.show()
             elif (op1=="text"):
                 while (1):
@@ -97,7 +97,7 @@ def menu1():
                     if (chst=='inapoi'):
                         break
                     if (chst=='imagine'):
-                        img = Image.open("text3.png")
+                        img = Image.open("1c.PNG")
                         img.show()
 
     if (val_q1=="4.Extremitati"):
@@ -106,7 +106,7 @@ def menu1():
             if (op1=="inapoi"):
                 break
             elif (op1=="imagine"):
-                img = Image.open("text4.png")
+                img = Image.open("2.PNG")
                 img.show()
             elif (op1=="text"):
                 while (1):
@@ -115,7 +115,7 @@ def menu1():
                     if (chst=='inapoi'):
                         break
                     if (chst=='imagine'):
-                        img = Image.open("text4.png")
+                        img = Image.open("2.PNG")
                         img.show()
     if (val_q1=="5.Varfuri adiacente"):
         while (1):
@@ -123,7 +123,7 @@ def menu1():
             if (op1=="inapoi"):
                 break
             elif (op1=="imagine"):
-                img = Image.open("text5.png")
+                img = Image.open("3.PNG")
                 img.show()
             elif (op1=="text"):
                 while (1):
@@ -132,7 +132,7 @@ def menu1():
                     if (chst=='inapoi'):
                         break
                     if (chst=='imagine'):
-                        img = Image.open("text5.png")
+                        img = Image.open("3.PNG")
                         img.show()
     if (val_q1=="exit"):
         os._exit(1)
@@ -148,7 +148,7 @@ def menu2():
             if (op1=="inapoi"):
                 break
             elif (op1=="imagine"):
-                img = Image.open("text.png")
+                img = Image.open("4.PNG")
                 img.show()
             elif (op1=="text"):
                 textLOL='''    Daca 2 arce au una dintre extremitati comuna atunci ele sunt incidente'''
@@ -157,7 +157,7 @@ def menu2():
                     if (chst=='inapoi'):
                         break
                     if (chst=='imagine'):
-                        img = Image.open("text.png")
+                        img = Image.open("4.PNG")
                         img.show()
     if (val_q2=="7. Bipartit"):
         while (1):
@@ -208,10 +208,10 @@ void back ( int k ){
                     if (chst=='inapoi'):
                         break
                     elif (chst=="imagine"):
-                        img = Image.open("text2.png")
+                        img = Image.open("5.PNG")
                         img.show()
             elif (op1=="imagine"):
-                img = Image.open("text2.png")
+                img = Image.open("5.PNG")
                 img.show()
             elif (op1=="text"):
                 while (1):
@@ -220,7 +220,7 @@ void back ( int k ){
                     if (chst=='inapoi'):
                         break
                     if (chst=='imagine'):
-                        img = Image.open("text.png")
+                        img = Image.open("5.PNG")
                         img.show()
                     elif (chst=="cod"):
                      while (1):
@@ -228,7 +228,7 @@ void back ( int k ){
                         if (chst2=='inapoi'):
                             break
                         elif (chst2=="imagine"):
-                            img = Image.open("text2.png")
+                            img = Image.open("5.PNG")
                             img.show()
                     
                     
@@ -238,7 +238,7 @@ void back ( int k ){
             if (op1=="inapoi"):
                 break
             elif (op1=="imagine"):
-                img = Image.open("text3.png")
+                img = Image.open("6.PNG")
                 img.show()
             elif (op1=="text"):
                 while (1):
@@ -248,7 +248,7 @@ void back ( int k ){
                     if (chst=='inapoi'):
                         break
                     if (chst=='imagine'):
-                        img = Image.open("text3.png")
+                        img = Image.open("6.PNG")
                         img.show()
                    
 
@@ -270,7 +270,7 @@ void citire()
             if (op1=="inapoi"):
                 break
             elif (op1=="imagine"):
-                img = Image.open("text4.png")
+                img = Image.open("7.PNG")
                 img.show()
             elif (op1=="cod"):
                 while (1):
@@ -278,7 +278,7 @@ void citire()
                     if (chst=='inapoi'):
                         break
                     elif (chst=="imagine"):
-                        img = Image.open("text2.png")
+                        img = Image.open("7.PNG")
                         img.show()
             elif (op1=="text"):
                 while (1):
@@ -287,7 +287,7 @@ void citire()
                     if (chst=='inapoi'):
                         break
                     if (chst=='imagine'):
-                        img = Image.open("text4.png")
+                        img = Image.open("7.PNG")
                         img.show()
                     elif (chst=="cod"):
                      while (1):
@@ -295,7 +295,7 @@ void citire()
                         if (chst2=='inapoi'):
                             break
                         elif (chst2=="imagine"):
-                            img = Image.open("text2.png")
+                            img = Image.open("7.PNG")
                             img.show()
     
     if (val_q2=="10. Grad Interior"):
@@ -321,10 +321,10 @@ void citire()
                     if (chst=='inapoi'):
                         break
                     elif (chst=="imagine"):
-                        img = Image.open("text2.png")
+                        img = Image.open("8.PNG")
                         img.show()
             elif (op1=="imagine"):
-                img = Image.open("text5.png")
+                img = Image.open("8.PNG")
                 img.show()
             elif (op1=="text"):
                 while (1):
@@ -335,7 +335,7 @@ void citire()
                     if (chst=='inapoi'):
                         break
                     if (chst=='imagine'):
-                        img = Image.open("text5.png")
+                        img = Image.open("8.PNG")
                         img.show()
                     elif (chst=="cod"):
                      while (1):
@@ -344,7 +344,7 @@ void citire()
                             break
                         
                         elif (chst2=="imagine"):
-                            img = Image.open("text2.png")
+                            img = Image.open("8.PNG")
                             img.show()
     if (val_q2=="<-back"):
         menu1()
@@ -387,10 +387,10 @@ int main()
                     if (chst=='inapoi'):
                         break
                     elif (chst=="imagine"):
-                        img = Image.open("text2.png")
+                        img = Image.open("10.PNG")
                         img.show()
             elif (op1=="imagine"):
-                img = Image.open("text.png")
+                img = Image.open("10.PNG")
                 img.show()
             elif (op1=="text"):
                 textLOL='''    Fie G=(V,E) un graf orientat cu n noduri, in care nu exista mai multe arce de la un nod la altul. Matricea de adiacenta a grafului este o matrice cu n linii si n coloane si elemente 0 sau 1, astfel: Ai,j=1 daca exista arcul (i,j) Ai,j=0 daca exista nu arcul (i,j).
@@ -400,7 +400,7 @@ int main()
                     if (chst=='inapoi'):
                         break
                     if (chst=='imagine'):
-                        img = Image.open("text.png")
+                        img = Image.open("10.PNG")
                         img.show()
                     elif (chst=="cod"):
                      while (1):
@@ -409,7 +409,7 @@ int main()
                             break
                         
                         elif (chst2=="imagine"):
-                            img = Image.open("text2.png")
+                            img = Image.open("10.PNG")
                             img.show()
     if (val_q3=="12. Liste de arce"):
         while (1):
@@ -418,7 +418,7 @@ int main()
             if (op1=="inapoi"):
                 break
             elif (op1=="imagine"):
-                img = Image.open("text2.png")
+                img = Image.open("11.PNG")
                 img.show()
             elif (op1=="text"):
                 while (1):
@@ -429,7 +429,7 @@ int main()
                     if (chst=='inapoi'):
                         break
                     if (chst=='imagine'):
-                        img = Image.open("text.png")
+                        img = Image.open("11.PNG")
                         img.show()
                     
     if (val_q3=="13. Liste de adiacenta"):
@@ -493,10 +493,10 @@ int main()
                     if (chst=='inapoi'):
                         break
                     elif (chst=="imagine"):
-                        img = Image.open("text2.png")
+                        img = Image.open("12.PNG")
                         img.show()
             elif (op1=="imagine"):
-                img = Image.open("text3.png")
+                img = Image.open("12.PNG")
                 img.show()
             elif (op1=="text"):
                 while (1):
@@ -507,7 +507,7 @@ int main()
                     if (chst=='inapoi'):
                         break
                     if (chst=='imagine'):
-                        img = Image.open("text3.png")
+                        img = Image.open("12.PNG")
                         img.show()
                     elif (chst=="cod"):
                      while (1):
@@ -516,7 +516,7 @@ int main()
                             break
                         
                         elif (chst2=="imagine"):
-                            img = Image.open("text2.png")
+                            img = Image.open("12.PNG")
                             img.show()
 
     
@@ -537,7 +537,7 @@ def menu4():
             if (op1=="inapoi"):
                 break
             elif (op1=="imagine"):
-                img = Image.open("text4.png")
+                img = Image.open("13.PNG")
                 img.show()
             elif (op1=="text"):
                 while (1):
@@ -547,7 +547,7 @@ def menu4():
                     if (chst=='inapoi'):
                         break
                     if (chst=='imagine'):
-                        img = Image.open("text4.png")
+                        img = Image.open("13.PNG")
                         img.show()
                     
     if (val_q4=="15. Subgraf"):
@@ -602,10 +602,10 @@ int main()
                     if (chst=='inapoi'):
                         break
                     elif (chst=="imagine"):
-                        img = Image.open("text2.png")
+                        img = Image.open("14.PNG")
                         img.show()
             elif (op1=="imagine"):
-                img = Image.open("text5.png")
+                img = Image.open("14.PNG")
                 img.show()
             elif (op1=="text"):
                 while (1):
@@ -615,7 +615,7 @@ int main()
                     if (chst=='inapoi'):
                         break
                     if (chst=='imagine'):
-                        img = Image.open("text5.png")
+                        img = Image.open("14.PNG")
                         img.show()
                     elif (chst=="cod"):
                      while (1):
@@ -623,7 +623,7 @@ int main()
                         if (chst2=='inapoi'):
                             break
                         elif (chst2=="imagine"):
-                            img = Image.open("text2.png")
+                            img = Image.open("14.PNG")
                             img.show()
     if (val_q4=="16. Graf Complet"):
         while (1):
@@ -647,10 +647,10 @@ int main()
                     if (chst=='inapoi'):
                         break
                     elif (chst=="imagine"):
-                        img = Image.open("text2.png")
+                        img = Image.open("15.PNG")
                         img.show()
             elif (op1=="imagine"):
-                img = Image.open("text.png")
+                img = Image.open("15.PNG")
                 img.show()
             elif (op1=="text"):
                 textLOL='''    Fie G=(V, E) un graf orientat. Graful G se numeste graf complet daca oricare doua noduri distincte ale sale sunt adiacente.'''
@@ -659,7 +659,7 @@ int main()
                     if (chst=='inapoi'):
                         break
                     if (chst=='imagine'):
-                        img = Image.open("text.png")
+                        img = Image.open("15.PNG")
                         img.show()
                     elif (chst=="cod"):
                      while (1):
@@ -668,7 +668,7 @@ int main()
                             break
                         
                         elif (chst2=="imagine"):
-                            img = Image.open("text2.png")
+                            img = Image.open("15.PNG")
                             img.show()
     if (val_q4=="17. Graf Turneu"):
         while (1):
@@ -718,10 +718,10 @@ dfs(1,1);
                     if (chst=='inapoi'):
                         break
                     elif (chst=="imagine"):
-                        img = Image.open("text2.png")
+                        img = Image.open("16.PNG")
                         img.show()
             elif (op1=="imagine"):
-                img = Image.open("text2.png")
+                img = Image.open("16.PNG")
                 img.show()
             elif (op1=="text"):
                 while (1):
@@ -730,7 +730,7 @@ dfs(1,1);
                     if (chst=='inapoi'):
                         break
                     if (chst=='imagine'):
-                        img = Image.open("text.png")
+                        img = Image.open("16.PNG")
                         img.show()
                     elif (chst=="cod"):
                      while (1):
@@ -739,7 +739,7 @@ dfs(1,1);
                             break
                         
                         elif (chst2=="imagine"):
-                            img = Image.open("text2.png")
+                            img = Image.open("16.PNG")
                             img.show()
     if (val_q4=="18. Graf Eulerian"):
         while (1):
@@ -791,10 +791,10 @@ int main()
                     if (chst=='inapoi'):
                         break
                     elif (chst=="imagine"):
-                        img = Image.open("text2.png")
+                        img = Image.open("17.PNG")
                         img.show()
             elif (op1=="imagine"):
-                img = Image.open("text3.png")
+                img = Image.open("17.PNG")
                 img.show()
             elif (op1=="text"):
                 while (1):
@@ -805,7 +805,7 @@ int main()
                     if (chst=='inapoi'):
                         break
                     if (chst=='imagine'):
-                        img = Image.open("text3.png")
+                        img = Image.open("17.PNG")
                         img.show()
                     elif (chst=="cod"):
                      while (1):
@@ -814,7 +814,7 @@ int main()
                             break
                         
                         elif (chst2=="imagine"):
-                            img = Image.open("text2.png")
+                            img = Image.open("17.PNG")
                             img.show()
 
     if (val_q4=="19.Graf Hamiltonian"):
@@ -887,10 +887,10 @@ a[x][y]=1;
                     if (chst=='inapoi'):
                         break
                     elif (chst=="imagine"):
-                        img = Image.open("text2.png")
+                        img = Image.open("18.PNG")
                         img.show()
             elif (op1=="imagine"):
-                img = Image.open("text4.png")
+                img = Image.open("18.PNG")
                 img.show()
             elif (op1=="text"):
                 while (1):
@@ -902,7 +902,7 @@ a[x][y]=1;
                     if (chst=='inapoi'):
                         break
                     if (chst=='imagine'):
-                        img = Image.open("text4.png")
+                        img = Image.open("18.PNG")
                         img.show()
                     elif (chst=="cod"):
                      while (1):
@@ -911,7 +911,7 @@ a[x][y]=1;
                             break
                         
                         elif (chst2=="imagine"):
-                            img = Image.open("text2.png")
+                            img = Image.open("18.PNG")
                             img.show()
     if (val_q4=="<-back"):
         menu3()
@@ -930,7 +930,7 @@ def menu5():
             if (op1=="inapoi"):
                 break
             elif (op1=="imagine"):
-                img = Image.open("text.png")
+                img = Image.open("19.PNG")
                 img.show()
             elif (op1=="text"):
                 textLOL='''    Fie G=(V, E) un graf orientat. Se numește lant, in graful G, o succesiune de arce, notata L = (u1 , u2 ,..., uk) cu proprietatea ca oricare două arce consecutive au o extremitate comuna (nu are importanta orientarea arcelor).
@@ -942,7 +942,7 @@ def menu5():
                     if (chst=='inapoi'):
                         break
                     if (chst=='imagine'):
-                        img = Image.open("text.png")
+                        img = Image.open("19.PNG")
                         img.show()
     if (val_q5=="21. Ciclu"):
         while (1):
@@ -950,7 +950,7 @@ def menu5():
             if (op1=="inapoi"):
                 break
             elif (op1=="imagine"):
-                img = Image.open("text2.png")
+                img = Image.open("20.PNG")
                 img.show()
             elif (op1=="text"):
                 while (1):
@@ -960,7 +960,7 @@ def menu5():
                     if (chst=='inapoi'):
                         break
                     if (chst=='imagine'):
-                        img = Image.open("text.png")
+                        img = Image.open("20.PNG")
                         img.show()
     if (val_q5=="22. Circuit"):
         while (1):
@@ -968,7 +968,7 @@ def menu5():
             if (op1=="inapoi"):
                 break
             elif (op1=="imagine"):
-                img = Image.open("text3.png")
+                img = Image.open("21.PNG")
                 img.show()
             elif (op1=="text"):
                 while (1):
@@ -979,7 +979,7 @@ def menu5():
                     if (chst=='inapoi'):
                         break
                     if (chst=='imagine'):
-                        img = Image.open("text3.png")
+                        img = Image.open("21.PNG")
                         img.show()
 
     if (val_q5=="23. Drum"):
@@ -988,7 +988,7 @@ def menu5():
             if (op1=="inapoi"):
                 break
             elif (op1=="imagine"):
-                img = Image.open("text4.png")
+                img = Image.open("22.PNG")
                 img.show()
             elif (op1=="text"):
                 while (1):
@@ -999,7 +999,7 @@ def menu5():
                     if (chst=='inapoi'):
                         break
                     if (chst=='imagine'):
-                        img = Image.open("text4.png")
+                        img = Image.open("22.PNG")
                         img.show()
     if (val_q5=="24. Nod Izolat"):
         while (1):
@@ -1007,7 +1007,7 @@ def menu5():
             if (op1=="inapoi"):
                 break
             elif (op1=="imagine"):
-                img = Image.open("text5.png")
+                img = Image.open("9.PNG")
                 img.show()
             elif (op1=="text"):
                 while (1):
@@ -1016,7 +1016,7 @@ def menu5():
                     if (chst=='inapoi'):
                         break
                     if (chst=='imagine'):
-                        img = Image.open("text5.png")
+                        img = Image.open("9.PNG")
                         img.show()
     if (val_q5=="25. Componente Conexe"):
         while (1):
@@ -1079,10 +1079,10 @@ for (int i=1; i<=n; i++)
                     if (chst=='inapoi'):
                         break
                     elif (chst=="imagine"):
-                        img = Image.open("text2.png")
+                        img = Image.open("23.PNG")
                         img.show()
             elif (op1=="imagine"):
-                img = Image.open("text5.png")
+                img = Image.open("23.PNG")
                 img.show()
             elif (op1=="text"):
                 while (1):
@@ -1092,7 +1092,7 @@ for (int i=1; i<=n; i++)
                     if (chst=='inapoi'):
                         break
                     if (chst=='imagine'):
-                        img = Image.open("text5.png")
+                        img = Image.open("23.PNG")
                         img.show()
                     elif (chst=="cod"):
                      while (1):
@@ -1101,7 +1101,7 @@ for (int i=1; i<=n; i++)
                             break
                         
                         elif (chst2=="imagine"):
-                            img = Image.open("text2.png")
+                            img = Image.open("23.PNG")
                             img.show()
     if (val_q5=="26. Graf Conex"):
         while (1):
@@ -1161,10 +1161,10 @@ fout<<"DA";
                     if (chst=='inapoi'):
                         break
                     elif (chst=="imagine"):
-                        img = Image.open("text2.png")
+                        img = Image.open("24.PNG")
                         img.show()
             elif (op1=="imagine"):
-                img = Image.open("text5.png")
+                img = Image.open("24.PNG")
                 img.show()
             elif (op1=="text"):
                 while (1):
@@ -1173,7 +1173,7 @@ fout<<"DA";
                     if (chst=='inapoi'):
                         break
                     if (chst=='imagine'):
-                        img = Image.open("text5.png")
+                        img = Image.open("24.PNG")
                         img.show()
                     elif (chst=="cod"):
                      while (1):
@@ -1182,7 +1182,7 @@ fout<<"DA";
                             break
                         
                         elif (chst2=="imagine"):
-                            img = Image.open("text2.png")
+                            img = Image.open("24.PNG")
                             img.show()
     if (val_q5=="27. Tare conexitate"):
         while (1):
@@ -1241,10 +1241,10 @@ int main()
                     if (chst=='inapoi'):
                         break
                     elif (chst=="imagine"):
-                        img = Image.open("text2.png")
+                        img = Image.open("25.PNG")
                         img.show()
             elif (op1=="imagine"):
-                img = Image.open("text5.png")
+                img = Image.open("25.PNG")
                 img.show()
             elif (op1=="text"):
                 while (1):
@@ -1255,7 +1255,7 @@ int main()
                     if (chst=='inapoi'):
                         break
                     if (chst=='imagine'):
-                        img = Image.open("text5.png")
+                        img = Image.open("25.PNG")
                         img.show()
                     elif (chst=="cod"):
                      while (1):
@@ -1264,7 +1264,7 @@ int main()
                             break
                         
                         elif (chst2=="imagine"):
-                            img = Image.open("text2.png")
+                            img = Image.open("25.PNG")
                             img.show()
     if (val_q5=="<-back"):
         menu4()
@@ -1284,7 +1284,7 @@ def menu6():
             if (op1=="inapoi"):
                 break
             elif (op1=="imagine"):
-                img = Image.open("text.png")
+                img = Image.open("26.PNG")
                 img.show()
             elif (op1=="text"):
                 textLOL='''    Se defineste o clica intr-un graf orientat ca fiind o submultime de noduri U a multimii V, asfel ca intre oricare doua noduri u şi v ale lui U exista un arc orientat fie de la u la v, fie invers de la v la u (sau ambele).
@@ -1294,11 +1294,11 @@ def menu6():
                     if (chst=='inapoi'):
                         break
                     if (chst=='imagine'):
-                        img = Image.open("text.png")
+                        img = Image.open("26.PNG")
                         img.show()
     if (val_q6=="29. Sortare Topologica/ Algoritmul lui Kahn"):
         while (1):
-            op1=py.confirm(text='29. Sortare Topologica/ Algoritmul lui Kahn', title='', buttons=['imagine','cod', 'text','inapoi'])
+            op1=py.confirm(text='29. Sortare Topologica/ Algoritmul lui Kahn', title='', buttons=['cod', 'text','inapoi'])
             codLOL='''
 #define N 100010
 #define M 400010
@@ -1334,15 +1334,9 @@ void dfs(int x)
                 break
             elif (op1=="cod"):
                 while (1):
-                    chst=py.confirm(text="cod",title='',buttons=['imagine','inapoi'])
+                    chst=py.confirm(text=codLOL,title='',buttons=['inapoi'])
                     if (chst=='inapoi'):
                         break
-                    elif (chst=="imagine"):
-                        img = Image.open("text2.png")
-                        img.show()
-            elif (op1=="imagine"):
-                img = Image.open("text2.png")
-                img.show()
             elif (op1=="text"):
                 while (1):
                     textLOL='''    O sortare topologica a nodurilor unui graf orientat aciclic este o operatie de ordonare liniara a nodurilor, astfel incat, daca exista un arc ( i , j ), atunci i apare inaintea lui j in aceasta ordonare. Pe scurt, sortarea topologica sorteaza nodurile astfel incat fiecare sa apara inaintea celui catre care indica.
@@ -1354,7 +1348,7 @@ void dfs(int x)
                     if (chst=='inapoi'):
                         break
                     if (chst=='imagine'):
-                        img = Image.open("text.png")
+                        img = Image.open("27.PNG")
                         img.show()
                     elif (chst=="cod"):
                      while (1):
@@ -1363,7 +1357,7 @@ void dfs(int x)
                             break
                         
                         elif (chst2=="imagine"):
-                            img = Image.open("text2.png")
+                            img = Image.open("27.PNG")
                             img.show()
 
     if (val_q6=="30. Alogritmul lui Roy-Warshall"):
@@ -1383,10 +1377,10 @@ for(int k = 1 ; k <= n ; ++k)
                     if (chst=='inapoi'):
                         break
                     elif (chst=="imagine"):
-                        img = Image.open("text2.png")
+                        img = Image.open("28.PNG")
                         img.show()
             elif (op1=="imagine"):
-                img = Image.open("text4.png")
+                img = Image.open("28.PNG")
                 img.show()
             elif (op1=="text"):
                 while (1):
@@ -1396,7 +1390,7 @@ for(int k = 1 ; k <= n ; ++k)
                     if (chst=='inapoi'):
                         break
                     if (chst=='imagine'):
-                        img = Image.open("text4.png")
+                        img = Image.open("28.PNG")
                         img.show()
                     elif (chst=="cod"):
                      while (1):
@@ -1405,7 +1399,7 @@ for(int k = 1 ; k <= n ; ++k)
                             break
                         
                         elif (chst2=="imagine"):
-                            img = Image.open("text2.png")
+                            img = Image.open("28.PNG")
                             img.show()
     if (val_q6=="TOP SECRET"):
         while (1):
