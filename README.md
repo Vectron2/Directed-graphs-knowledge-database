@@ -9,6 +9,6 @@ to install the libs needed run (in cmd):
 py -m pip install pyautogui
 py -m pip install pillow
 
-(of course ypu need python to already be installed on your PC :) ) 
+(of course you need python to already be installed on your PC :) ) 
 
 credit to : Comsa Mirela,  Victor Miron,  Sahleanu Luca
