@@ -1161,10 +1161,10 @@ fout<<"DA";
                     if (chst=='inapoi'):
                         break
                     elif (chst=="imagine"):
-                        img = Image.open("24.PNG")
+                        img = Image.open("25.PNG")
                         img.show()
             elif (op1=="imagine"):
-                img = Image.open("24.PNG")
+                img = Image.open("25.PNG")
                 img.show()
             elif (op1=="text"):
                 while (1):
@@ -1173,7 +1173,7 @@ fout<<"DA";
                     if (chst=='inapoi'):
                         break
                     if (chst=='imagine'):
-                        img = Image.open("24.PNG")
+                        img = Image.open("25.PNG")
                         img.show()
                     elif (chst=="cod"):
                      while (1):
@@ -1182,7 +1182,7 @@ fout<<"DA";
                             break
                         
                         elif (chst2=="imagine"):
-                            img = Image.open("24.PNG")
+                            img = Image.open("25.PNG")
                             img.show()
     if (val_q5=="27. Tare conexitate"):
         while (1):
@@ -1284,7 +1284,7 @@ def menu6():
             if (op1=="inapoi"):
                 break
             elif (op1=="imagine"):
-                img = Image.open("26.PNG")
+                img = Image.open("24.PNG")
                 img.show()
             elif (op1=="text"):
                 textLOL='''    Se defineste o clica intr-un graf orientat ca fiind o submultime de noduri U a multimii V, asfel ca intre oricare doua noduri u şi v ale lui U exista un arc orientat fie de la u la v, fie invers de la v la u (sau ambele).
@@ -1294,11 +1294,11 @@ def menu6():
                     if (chst=='inapoi'):
                         break
                     if (chst=='imagine'):
-                        img = Image.open("26.PNG")
+                        img = Image.open("24.PNG")
                         img.show()
     if (val_q6=="29. Sortare Topologica/ Algoritmul lui Kahn"):
         while (1):
-            op1=py.confirm(text='29. Sortare Topologica/ Algoritmul lui Kahn', title='', buttons=['cod', 'text','inapoi'])
+            op1=py.confirm(text='29. Sortare Topologica/ Algoritmul lui Kahn', title='', buttons=['imagine','cod', 'text','inapoi'])
             codLOL='''
 #define N 100010
 #define M 400010
@@ -1334,9 +1334,15 @@ void dfs(int x)
                 break
             elif (op1=="cod"):
                 while (1):
-                    chst=py.confirm(text=codLOL,title='',buttons=['inapoi'])
+                    chst=py.confirm(text=codLOL,title='',buttons=['imagine','inapoi'])
                     if (chst=='inapoi'):
                         break
+                    if (chst=="imagine"):
+                            img = Image.open("27.PNG")
+                            img.show()
+            elif (op1=="imagine"):
+                            img = Image.open("27.PNG")
+                            img.show()
             elif (op1=="text"):
                 while (1):
                     textLOL='''    O sortare topologica a nodurilor unui graf orientat aciclic este o operatie de ordonare liniara a nodurilor, astfel incat, daca exista un arc ( i , j ), atunci i apare inaintea lui j in aceasta ordonare. Pe scurt, sortarea topologica sorteaza nodurile astfel incat fiecare sa apara inaintea celui catre care indica.
@@ -1352,7 +1358,7 @@ void dfs(int x)
                         img.show()
                     elif (chst=="cod"):
                      while (1):
-                        chst2=py.confirm(text="cod",title='',buttons=['imagine','inapoi'])
+                        chst2=py.confirm(text=codLOL,title='',buttons=['imagine','inapoi'])
                         if (chst2=='inapoi'):
                             break
                         
